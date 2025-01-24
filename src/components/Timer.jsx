@@ -8,7 +8,7 @@ function Timer() {
 
     const interval = setInterval(() => {
       setSeconds((prevSeconds) => prevSeconds + 1);
-    }, 100);
+    }, 1000);
 
     return () => clearInterval(interval);
   },[]);

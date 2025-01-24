@@ -5,6 +5,8 @@ import Focus from './components/Focus'
 import Clock from './components/clock'
 import TodoList from './components/todo'
 import Mouse from './components/Mouse'
+import Checkbox from './components/checkbox'
+import Data from './components/Data'
 
 function App() {
   // const [count,setCount]=useState(0)
@@ -35,7 +37,10 @@ function App() {
       {/* <Focus /> */}
       {/* <Clock /> */}
       {/* <TodoList /> */}
-      <Mouse />
+      {/* <Mouse /> */}
+      {/* <Checkbox /> */}
+      {/* <Timer /> */}
+      <Data />
     </>
   )
 }
