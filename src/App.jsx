@@ -7,6 +7,7 @@ import TodoList from './components/todo'
 import Mouse from './components/Mouse'
 import Checkbox from './components/checkbox'
 import Data from './components/Data'
+import Input from './components/Input'
 
 function App() {
   // const [count,setCount]=useState(0)
@@ -40,7 +41,8 @@ function App() {
       {/* <Mouse /> */}
       {/* <Checkbox /> */}
       {/* <Timer /> */}
-      <Data />
+      {/* <Data /> */}
+      <Input />
     </>
   )
 }
